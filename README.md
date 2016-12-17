@@ -5,19 +5,24 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
 Rails version: 5.0.0.1
 
 Ruby version: 2.3.1 (i686-linux)
 
-1: Fetch and store H1, H2, H3 and Links from url.
+RESTful API to index a page's content.
+
+
+API 1: To Fetch and store H1, H2, H3 and Links from url.
+
 Path: http://localhost:3000/api/v1/scraps
+
 Method: Post
+
 Body:
 {
 	"url": "http://stackoverflow.com/questions/24179410/render-action-with-parameters-after-form-error"
 }
+
 Response:
 
 [
@@ -47,9 +52,10 @@ Response:
 ]
 
 
+API 2: Fetch all data.
 
-2: Fetch all data.
 Path: http://localhost:3000/api/v1/scraps
+
 Method: get
 
 Response:
