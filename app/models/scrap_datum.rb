@@ -1,0 +1,4 @@
+class ScrapDatum < ApplicationRecord
+
+	
+end

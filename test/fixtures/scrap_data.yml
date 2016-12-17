@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  h1_data: MyString
+  h2_data: MyString
+  h3_data: MyString
+  links: MyString
+
+two:
+  h1_data: MyString
+  h2_data: MyString
+  h3_data: MyString
+  links: MyString
