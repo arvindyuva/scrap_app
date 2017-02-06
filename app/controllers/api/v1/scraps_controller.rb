@@ -10,7 +10,6 @@ class Api::V1::ScrapsController < ApplicationController
 	end
 
 	def create
-		debugger
 		@array = []
 		h = {}
 		s = ScrapContent.fetch_data(params[:url])
